@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
+    <title>Resumo de Flexbox</title>
+</head>
+
+<body>
+    <header>
+        <h1>Resumo de Flexbox</h1>
+    </header>
+    <main class="apresentacao">
+        <div class="section lado-class">
+            <h2>Flex usando CSS externo</h2>
+            <div class="container">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+
+            <h2>Usando o direction (Row)</h2>
+            <div class="container ">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+
+            <h2>Usando o direction (Column)</h2>
+            <div class="container col">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+
+            <h2>Espaçamento entre Itens</h2>
+            <div class="container flex-space-between">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Flex usando PrimeFlex</h2>
+            <div class="flex bg p-d-flex p-jc-start p-ai-center">
+                <div class="p-mr-2 item">Item 1</div>
+                <div class="p-mr-2 item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+
+            <h2>Usando o direction (Row)</h2>
+            <div class="flex bg p-d-flex p-flex-row p-ai-center">
+                <div class="p-mr-2 item">Item 1</div>
+                <div class="p-mr-2 item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+
+            <h2>Usando o direction (Column)</h2>
+            <div class="flex bg flex-column">
+                <div class="p-mb-2 item">Item 1</div>
+                <div class="p-mb-2 item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+
+            <h2>Espaçamento entre Itens</h2>
+            <div class="flex bg justify-content-between">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer class="footer">
+    <h3>Referencias</h3>
+    <ul>
+        <li>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS FLEXBOX LAYOUT GUIDE</a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/css/css3_flexbox.asp">W3SCHOOL</a>
+
+        </li>
+        <li>
+            <a href="https://primeflex.org/">PRIME FLEX</a>
+
+        </li>
+    </ul>
+</footer>
+
+</html>
